@@ -35,5 +35,25 @@ public class Main{
 
         System.out.println("\nModulo REPORTES");
         modulo3.mostrarInformacion();
+
+        //Prueba independencia objetos y metodos
+        System.out.println("Marcar Login como terminado\n");
+        modulo1.marcarTerminado();
+
+        System.out.println("Estados actualizados");
+        System.out.println("\nEstado login:");
+        modulo1.mostrarInformacion();
+
+        System.out.println("\nEstado Inventario:");
+        modulo2.mostrarInformacion();
+
+        System.out.println("\nEstado Reportes:");
+        modulo3.mostrarInformacion();
+
+        System.out.println("\nVersiones");
+        modulo1.mostrarVersion();
+        modulo2.mostrarVersion();
+        modulo3.mostrarVersion();
+
     }
 }
